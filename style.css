@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    border:solid 1px grey;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    border-radius: 2rem;
+    margin-top: 1em;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    border-top: solid 1px grey;
+    padding: 1em;
+}
+
+h2{
+    padding: 1em;
+    background: rgb(0, 255, 145);
+    border-radius: 2rem 2rem 0 0;
+}
+
+ul li:hover{
+    background-color: rgb(63, 73, 73);
+    color: aliceblue;
+}
+
+ul li:last-child:hover{
+    border-radius: 0 0 2rem 2rem;
+}
